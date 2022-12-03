@@ -5,6 +5,7 @@ void WelcomeToHangman()
 {
 	cout << "\t\t\t Welcome to Hangman";
 }
+//Stages of the gallow
 void gallows1()
 {
 	cout << "\t ___________ \n";
@@ -75,17 +76,3 @@ void gallows6()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-
-
-/*
-void gallows()
-{
-	cout << "\t ___________ \n";
-	cout << "\t | \t   | \n";
-	cout << "\t | \t   O\n";
-	cout << "\t | \t  /|\\\n";
-	cout << "\t | \t   |\n";
-	cout << "\t | \t  / \\\n";
-	cout << "\t | \n";
-	cout << "\t _______ ";
-}*/

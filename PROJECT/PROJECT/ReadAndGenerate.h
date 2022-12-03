@@ -1,2 +1,2 @@
 #pragma once
-void ReadFromFile(ifstream &file, string words[]);
+void ReadFile(ifstream &file, string words[]);

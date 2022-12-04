@@ -22,17 +22,18 @@ int main()
 	{
 		int word, attempt = 0;
 		char blanks[MaxSize], option;
-		string words[MaxSize];
-		Read(file, words, MaxLines);
+		string word_list[MaxSize];
+		Read(MaxLines, file, words);
 		do
 		{
 			cout << "Do you want to play?";
 			cin >> option;
 			word = Generate(words, blanks, MaxLines);
 			system("cls");
-			words[attempt] = words[word];
+			word_list[attempt] = words[word];
 			attempt++;
-		} while (option == 'y' || option == 'Y');
+		} 
+		while (option == 'y' || option == 'Y');
 		file.close();
 	}
 	return 0;

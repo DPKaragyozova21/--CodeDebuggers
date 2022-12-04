@@ -3,7 +3,7 @@
 #include <fstream>
 #include "ReadAndGenerate.h"
 using namespace std;
-void Read(ifstream &file, string words[], const int MaxLines=2999)
+void Read(ifstream &file, string words[], int MaxLines)
 {
 	int i = 0;
 	while (i < MaxLines && getline(file, words[i]))

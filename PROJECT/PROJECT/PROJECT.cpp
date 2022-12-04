@@ -23,7 +23,7 @@ int main()
 		int word, attempt = 0;
 		char blanks[MaxSize], option;
 		string words[MaxSize];
-		Read(file, words);
+		Read(file, words, MaxLines);
 		do
 		{
 			cout << "Do you want to play?";

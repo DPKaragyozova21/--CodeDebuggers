@@ -1,3 +1,8 @@
 #pragma once
 void WelcomeToHangman();
-void gallows1(); void gallows2(); void gallows3(); void gallows4(); void gallows5(); void gallows6();
+void gallow1(); 
+void gallow2(); 
+void gallow3(); 
+void gallow4(); 
+void gallow5(); 
+void gallow6();

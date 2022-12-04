@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ReadAndGenerate.cpp" />
+    <ClCompile Include="Replace.cpp" />
     <ClCompile Include="Welcome.cpp" />
     <ClCompile Include="PROJECT.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Replace.h" />
     <ClInclude Include="ReadAndGenerate.h" />
     <ClInclude Include="Welcome.h" />
   </ItemGroup>

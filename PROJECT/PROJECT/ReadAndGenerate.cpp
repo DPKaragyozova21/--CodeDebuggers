@@ -3,7 +3,7 @@
 #include <fstream>
 #include "ReadAndGenerate.h"
 using namespace std;
-void ReadFile(ifstream &file, string words[], const int MaxLines=2999)
+void Read(ifstream &file, string words[], const int MaxLines=2999)
 {
 	int i = 0;
 	while (i < MaxLines && getline(file, words[i]))
@@ -11,7 +11,7 @@ void ReadFile(ifstream &file, string words[], const int MaxLines=2999)
 		i++;
 	}
 }
-int GenerateAndReplace(const string words[], char BlankForLetter[], const int MaxLines = 2999)
+int Generate(const string words[], char BlankForLetter[], const int MaxLines = 2999)
 {
 	int random_word = rand() % 15;
 	for (int blanks = 0; blanks < words[random_word].length(); blanks++)

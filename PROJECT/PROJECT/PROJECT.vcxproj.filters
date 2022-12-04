@@ -24,12 +24,18 @@
     <ClCompile Include="ReadAndGenerate.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Replace.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Welcome.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="ReadAndGenerate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Replace.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

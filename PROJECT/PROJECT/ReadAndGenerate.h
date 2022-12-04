@@ -1,2 +1,3 @@
 #pragma once
-void ReadFile(ifstream &file, string words[]);
+void Read(ifstream &file, string words[]);
+int Generate(const string words[], char BlankForLetter[], const int MaxLines = 2999);

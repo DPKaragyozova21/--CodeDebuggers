@@ -17,7 +17,19 @@ void gallows1()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-void gallows2()
+void gallow2()
+{
+	cout << "\t ___________ \n";
+	cout << "\t | \t   | \n";
+	cout << "\t | \t   O\n";
+	cout << "\t | \t   |\n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t _______ ";
+}
+void gallow3()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";
@@ -29,7 +41,7 @@ void gallows2()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-void gallows3()
+void gallow4()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";
@@ -40,7 +52,7 @@ void gallows3()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-void gallows4()
+void gallow5()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";
@@ -52,7 +64,7 @@ void gallows4()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-void gallows5()
+void gallow6()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";
@@ -64,7 +76,7 @@ void gallows5()
 	cout << "\t |\n";
 	cout << "\t _______ ";
 }
-void gallows6()
+void gallow7()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";

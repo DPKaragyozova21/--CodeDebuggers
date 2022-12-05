@@ -1,4 +1,8 @@
 #include <iostream>
+#include <string>
+#include <fstream>
+#include <cstdlib>
+#include <ctime>
 #include "Welcome.h"
 using namespace std;
 void WelcomeToHangman()
@@ -6,7 +10,18 @@ void WelcomeToHangman()
 	cout << "\t\t\t Welcome to Hangman";
 }
 //Stages of the gallow
-void gallows1()
+void gallow0()
+{
+	cout << "\t ___________ \n";
+	cout << "\t | \t   | \n";
+	cout << "\t | \t   \n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t |\n";
+	cout << "\t _______ ";
+}
+void gallow1()
 {
 	cout << "\t ___________ \n";
 	cout << "\t | \t   | \n";

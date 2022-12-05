@@ -129,10 +129,12 @@
   <ItemGroup>
     <ClCompile Include="ReadAndGenerate.cpp" />
     <ClCompile Include="Replace.cpp" />
+    <ClCompile Include="Hangman.cpp" />
     <ClCompile Include="Welcome.cpp" />
     <ClCompile Include="PROJECT.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Hangman.h" />
     <ClInclude Include="Replace.h" />
     <ClInclude Include="ReadAndGenerate.h" />
     <ClInclude Include="Welcome.h" />

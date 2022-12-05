@@ -1,22 +1,18 @@
 ﻿  ReadAndGenerate.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,31): error C2061: syntax error: identifier 'ifstream'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,14): error C2065: 'string': undeclared identifier
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,21): error C2146: syntax error: missing ')' before identifier 'words'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.cpp(14,5): error C2365: 'Generate': redefinition; previous definition was 'data variable'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3): message : see declaration of 'Generate'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.cpp(19,26): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   Replace.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,20): error C2065: 'string': undeclared identifier
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,27): error C2146: syntax error: missing ')' before identifier 'words'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(4,5): error C2365: 'GuessTheLetter': redefinition; previous definition was 'data variable'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2): message : see declaration of 'GuessTheLetter'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,60): error C2664: 'int hangmanFigure(int,const int [],int)': cannot convert argument 2 from 'const std::string []' to 'const int []'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,5): message : see declaration of 'hangmanFigure'
+  Hangman.cpp
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   PROJECT.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,31): error C2061: syntax error: identifier 'ifstream'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,14): error C2065: 'string': undeclared identifier
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,21): error C2146: syntax error: missing ')' before identifier 'words'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(9,2): warning C4551: function call missing argument list
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(13,16): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(26,29): error C2660: 'Read': function does not take 3 arguments
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,6): message : see declaration of 'Read'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(31,11): error C2064: term does not evaluate to a function taking 3 arguments
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...

@@ -27,6 +27,9 @@
     <ClCompile Include="Replace.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Hangman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Welcome.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Replace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hangman.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\Figure.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\main.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Figure.cpp
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\Figure.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  ReadAndGenerate.cpp
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Replace.cpp
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\Replace.cpp(62,21): error C3861: 'hangmanFigure': identifier not found
+  Welcome.cpp
+  Generating Code...

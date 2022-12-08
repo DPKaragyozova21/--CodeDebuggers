@@ -1,18 +1,19 @@
 ﻿  ReadAndGenerate.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   Replace.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,60): error C2664: 'int hangmanFigure(int,const int [],int)': cannot convert argument 2 from 'const std::string []' to 'const int []'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,5): message : see declaration of 'hangmanFigure'
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,60): error C2664: 'int hangmanFigure(int,const int [],int)': cannot convert argument 2 from 'const std::string []' to 'const int []'
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Replace.cpp(63,49): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,5): message : see declaration of 'hangmanFigure'
   Hangman.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Welcome.cpp
   PROJECT.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\Hangman.h(2,36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\gamin\Downloads\CodeDebuggers\PROJECT\PROJECT\PROJECT.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
   Generating Code...

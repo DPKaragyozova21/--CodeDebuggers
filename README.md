@@ -6,11 +6,9 @@
 <img src="https://cdn.discordapp.com/attachments/1044355431969083435/1050459415918153728/codedebuggers-logo.png" width="600" height="450">
 </p>
   
-<p align="center">
 ## Hello, We are CodeDebuggers!
 
 Our game is known by the name hangman. It's a guessing game where you have to guess a word by only choosing random letters. The game ends when you have guessed to many times and the hangman is complete or when you guess the word correctly.
-</p>
 ---
  
  ## Team

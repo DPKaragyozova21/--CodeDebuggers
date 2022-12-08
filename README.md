@@ -13,16 +13,16 @@ Our game is known by the name hangman. It's a guessing game where you have to gu
  
  ## Team
 1. **DPKaragyozova21** - **Scrum trainer**	
-   > ***GitHub profile***: [**DPKaragyozova21***](https://github.com/AITsachev19)	
+   > ***GitHub profile***: [**DPKaragyozova21**](https://github.com/DPKaragyozova21)	
    
 2. **IDDimov21** - **Frontend Developer** 
    > ***GitHub profile***: [***IDDimov21***](https://github.com/IDDimov21)
 
 3. **DRDimov21** - **QA Engineer**	
-   > ***GitHub profile***: [***DRDimov21***](https://github.com/DGBratoevski20)	
+   > ***GitHub profile***: [***DRDimov21***](https://github.com/DRDimov21)	
 
 4. **BKKyovtorov21** - **Backend Developer**	
-   > ***GitHub profile***: [***BKKyovtorov21***](https://github.com/HHChandar20)	
+   > ***GitHub profile***: [***BKKyovtorov21***](https://github.com/BKKyovtorov21)	
 
 ---
 

@@ -1,10 +1,5 @@
 #include <iostream>
-#include <string>
-#include <fstream>
-#include <cstdlib>
-#include <ctime>
 #include "Figure.h"
-#include "Replace.h"
 #include "Welcome.h"
 using namespace std;
 int hangmanFigure(int &wrong_choice)

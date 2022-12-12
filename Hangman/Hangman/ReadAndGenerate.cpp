@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <cstdlib>
-#include <ctime>
 #include "ReadAndGenerate.h"
 using namespace std;
 void Read(const int MaxLines, ifstream& file, string words[])

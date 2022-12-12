@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 #include <fstream>
-#include <cstdlib>
-#include <ctime>
 #include "Replace.h"
 #include "Figure.h"
 using namespace std;

@@ -66,14 +66,14 @@ int main()
 
         return 0;
     }
-    string Documentation = "https://codingburgas-my.sharepoint.com/:w:/g/personal/bkkyovtorov21_codingburgas_bg/ETuNwrwQV19OppTPU1aLQ40BX_-EH7mvGuLsx4JqxA9LlQ?e=y1kHl3";
-    string Presentation = "https://codingburgas-my.sharepoint.com/:p:/g/personal/bkkyovtorov21_codingburgas_bg/EedHIjBV7rZJuxm-vqmSyRwB8tHOrtGTyZPJNmMUQwCMcA?e=6SgsCH";
+    string Documentation = "start https://codingburgas-my.sharepoint.com/:w:/g/personal/bkkyovtorov21_codingburgas_bg/ETuNwrwQV19OppTPU1aLQ40BX_-EH7mvGuLsx4JqxA9LlQ?e=y1kHl3";
+    string Presentation = "start https://codingburgas-my.sharepoint.com/:p:/g/personal/bkkyovtorov21_codingburgas_bg/EedHIjBV7rZJuxm-vqmSyRwB8tHOrtGTyZPJNmMUQwCMcA?e=6SgsCH";
     if (option == 2)
     {
-        system(Documentation.c_str());
+        system(Presentation.c_str());
     }
     else if (option == 3)
     {
-        system(Presentation.c_str());
+        system(Documentation.c_str());
     }
 }

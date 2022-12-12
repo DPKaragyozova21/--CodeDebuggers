@@ -1,2 +1,2 @@
 #pragma once
-int hangmanFigure(int, const string[], int);
+int hangmanFigure(int&);

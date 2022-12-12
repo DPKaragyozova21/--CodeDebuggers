@@ -8,10 +8,10 @@
 #include "Figure.h"
 using namespace std;
 
-void WelcomeToHangman();
+void WelcomeToHangman(int);
 void Read(const int, ifstream&, string[]);
 int Generate(const string[], char[], const int);
-int hangmanFigure(int, const string[], int);
+int hangmanFigure(int&);
 int GuessTheLetter(const string[], char[], int&);
 
 int main()
@@ -23,44 +23,47 @@ int main()
 
     unsigned seed = time(0);
     srand(seed);
-
-    WelcomeToHangman();
-
-    ifstream file;
-    file.open("words.txt");
-
-    if (!file) //input validation
-        cout << "Error! Couldn't open the word list! Game Crashed!!\n";
-    else
+    int option;
+    cin >> option;
+    WelcomeToHangman(option);
+    if (option == 1)
     {
-        int word, game_score;
-        int attempt = 0;
-        char blank_for_word[MaxSize];
-        int score_list[MaxLines];
-        string words_list[MaxLines];
-        char option;
+        ifstream file;
+        file.open("words.txt");
 
-        Read(MaxLines, file, words);
-
-        do
+        if (!file) //input validation
+            cout << "Error! Couldn't open the word list! Game Crashed!!\n";
+        else
         {
-            word = Generate(words, blank_for_word, MaxLines);
-            game_score = GuessTheLetter(words, blank_for_word, word);
+            int word, game_score;
+            int attempt = 0;
+            char blank_for_word[MaxSize];
+            int score_list[MaxLines];
+            string words_list[MaxLines];
+            char option;
 
-            cout << "\nDo you want to play again(press y or Y)?";
-            cin >> option;
+            Read(MaxLines, file, words);
 
-            system("cls");
+            do
+            {
+                word = Generate(words, blank_for_word, MaxLines);
+                game_score = GuessTheLetter(words, blank_for_word, word);
 
-            words_list[attempt] = words[word];
-            score_list[attempt] = game_score;
+                cout << "\nDo you want to play again(press y or Y)?";
+                cin >> option;
 
-            attempt++;
+                system("cls");
 
-        } while (option == 'y' || option == 'Y');
+                words_list[attempt] = words[word];
+                score_list[attempt] = game_score;
 
-        file.close();
+                attempt++;
+
+            } while (option == 'y' || option == 'Y');
+
+            file.close();
+        }
+
+        return 0;
     }
-
-    return 0;
 }

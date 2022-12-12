@@ -4,6 +4,7 @@
 #include <cstdlib>
 #include <ctime>
 #include "Replace.h"
+#include "Figure.h"
 using namespace std;
 int GuessTheLetter(const string words[], char blank_for_word[], int& word)
 {
@@ -59,7 +60,7 @@ int GuessTheLetter(const string words[], char blank_for_word[], int& word)
             wrong_choice++;
         }
 
-        int check = hangmanFigure(wrong_choice, words, word);
+        int check = hangmanFigure(wrong_choice);
 
         if (count_letter == words[word].length() && check == 0)
         {

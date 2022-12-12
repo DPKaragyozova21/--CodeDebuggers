@@ -8,7 +8,7 @@ using namespace std;
 void Read(const int MaxLines, ifstream& file, string words[])
 {
 	int i = 0;
-
+	file.open("words.txt");
 	while (i < MaxLines && getline(file, words[i]))
 	{
 		i++;

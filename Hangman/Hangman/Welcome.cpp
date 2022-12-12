@@ -5,9 +5,11 @@
 #include <ctime>
 #include "Welcome.h"
 using namespace std;
-void WelcomeToHangman()
+void WelcomeToHangman(int option)
 {
+	int option;
 	cout << "\t\t\t Welcome to Hangman";
+	cout << "\t\t\t 1) Start Game";
 }
 //Stages of the gallow
 void gallow0()

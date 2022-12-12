@@ -67,14 +67,47 @@ int main()
 
         return 0;
     }
+    if (option == 2)
+    {
+        system("cls");
+        cout << endl << endl;
+        cout << "\t HANG-MAN \n";
+        cout << "\t Number of Players: 2 (You and the program)\n";
+        cout << "\t Object: : The program thinks of a word and\n";
+        cout << "\t you try to guess it by guessing letters.\n";
+        cout << "\t Each incorrect guess brings you closer\n";
+        cout << "\t to being hanged. This game\n";
+        cout << "\t helps to sharpen children’s spelling and \n";
+        cout << "\t word-decoding skills.\n \n";
+        cout << R"(      
+                                                               a  b  c  d  c  d  e  f  g  h  i  j  k  l
+
+                                                               n  o  p  q  r  s  t  u  v  w  x  y  z
+                                                                         ___________
+                                                                         |         |
+                                                                         |         O
+                                                                         |        /|\
+                                                                         |         |
+                                                                         |        /
+                                                                         |
+
+)" << endl;
+        cout << R"(
+        The program will fill in the letter everywhere it appears on the appropriate dash (or dashes)
+        each time you guess correctly. It will circle the letter on the alphabet if is guessed correctly
+        and add body part to the drawing each time the letter chosen is not in the word. The Beggining is
+        by drawing a head attached to the short vertical line (the "noose"). Add eyes, ears, nose, hair,
+        body, legs and arms. Put an X through the letter that was guessed and not correct.
+)";
+    }
     string Documentation = "start https://codingburgas-my.sharepoint.com/:w:/g/personal/bkkyovtorov21_codingburgas_bg/ETuNwrwQV19OppTPU1aLQ40BX_-EH7mvGuLsx4JqxA9LlQ?e=y1kHl3";
     string Presentation = "start https://codingburgas-my.sharepoint.com/:p:/g/personal/bkkyovtorov21_codingburgas_bg/EedHIjBV7rZJuxm-vqmSyRwB8tHOrtGTyZPJNmMUQwCMcA?e=6SgsCH";
-    if (option == 2)
+    if (option == 3)
     {
         system("cls");
         system(Presentation.c_str());
     }
-    else if (option == 3)
+    else if (option == 4)
     {
         system("cls");
         system(Documentation.c_str());
@@ -91,8 +124,9 @@ void WelcomeToHangman()
                                       \/       \/          \/            \/     \/                          \/      \/     \//_____/       \/     \/     \/      
 )" << '\n';
     cout << "\t\t\t 1) Start Game \n";
-    cout << "\t\t\t 2) Go to Presentation \n";
-    cout << "\t\t\t 3) Go to Documentation \n";
+    cout << "\t\t\t 2) How to play \n";
+    cout << "\t\t\t 3) Go to Presentation \n";
+    cout << "\t\t\t 4) Go to Documentation \n";
     cout << "\t\t\t Good Luck and have fun \n";
 }
 //Stages of the gallow

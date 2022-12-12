@@ -1,3 +1,1 @@
-﻿  main.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\main.cpp(20,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Hangman.vcxproj -> C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\x64\Debug\Hangman.exe
+﻿  Hangman.vcxproj -> C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\x64\Debug\Hangman.exe

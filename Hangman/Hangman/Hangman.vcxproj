@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Figure.cpp" />
+    <ClCompile Include="Generate.cpp" />
+    <ClCompile Include="HowToPlay.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Read.cpp" />
+    <ClCompile Include="Replace.cpp" />
+    <ClCompile Include="Welcome.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Figure.h" />
+    <ClInclude Include="Generate.h" />
+    <ClInclude Include="HowToPlay.h" />
+    <ClInclude Include="Read.h" />
+    <ClInclude Include="Replace.h" />
+    <ClInclude Include="Welcome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -128,16 +128,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Figure.cpp" />
-    <ClCompile Include="ReadAndGenerate.cpp" />
-    <ClCompile Include="Replace.cpp" />
-    <ClCompile Include="Welcome.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Figure.h" />
-    <ClInclude Include="ReadAndGenerate.h" />
-    <ClInclude Include="Replace.h" />
-    <ClInclude Include="Welcome.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

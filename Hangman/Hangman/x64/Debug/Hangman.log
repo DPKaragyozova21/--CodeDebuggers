@@ -1,14 +1,3 @@
 ﻿  main.cpp
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\main.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
-  Figure.cpp
-  ReadAndGenerate.cpp
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(2,22): error C2061: syntax error: identifier 'ifstream'
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  Replace.cpp
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-  Welcome.cpp
-C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\Welcome.cpp(6,12): error C2082: redefinition of formal parameter 'option'
-  Generating Code...
+C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\Hangman\main.cpp(20,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Hangman.vcxproj -> C:\Users\boyan\Desktop\GIT\CodeDebuggers\Hangman\x64\Debug\Hangman.exe

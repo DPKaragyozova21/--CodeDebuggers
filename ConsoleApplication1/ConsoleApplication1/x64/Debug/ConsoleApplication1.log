@@ -1,4 +1,0 @@
-﻿  ConsoleApplication1.cpp
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(24,19): warning C4244: 'initializing': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\boyan\Desktop\GIT\CodeDebuggers\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(183,75): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-  ConsoleApplication1.vcxproj -> C:\Users\boyan\Desktop\GIT\CodeDebuggers\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe

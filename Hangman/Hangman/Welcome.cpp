@@ -10,6 +10,8 @@ void WelcomeToHangman(int option)
 	int option;
 	cout << "\t\t\t Welcome to Hangman";
 	cout << "\t\t\t 1) Start Game";
+	cout << "\t\t\t 2) Go to Presentation";
+	cout << "\t\t\t 3) Go to Documentation";
 }
 //Stages of the gallow
 void gallow0()

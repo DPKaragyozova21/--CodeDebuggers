@@ -10,4 +10,6 @@ C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(2
 C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\ReadAndGenerate.h(3,26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
   Replace.cpp
 C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\Replace.h(2,32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Welcome.cpp
+C:\Users\BKKyovtorov21\Desktop\CodeDebuggers\Hangman\Hangman\Welcome.cpp(10,12): error C2082: redefinition of formal parameter 'option'
   Generating Code...

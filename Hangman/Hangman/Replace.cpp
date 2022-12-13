@@ -10,7 +10,6 @@ int GuessTheLetter(const string words[], char blank[], int& word)
     char letter;
     int i = 0;
     int wrong_choices = 0;
-    int score = 0, rounded_score = 0;
     const int MAX_GUESS = 26;
 
     while (i < MAX_GUESS)
@@ -56,18 +55,21 @@ int GuessTheLetter(const string words[], char blank[], int& word)
 
         int check = hangmanFigure(wrong_choices);
 
-        if (count_letter == words[word].length() && check == 0)
+        if (count_letter == words[word].length())
         {
-            cout << "You guessed the word!";
+            cout << "Good job! You guessed the word. \n";
 
             if (wrong_choices == 0)
             {
-                cout << "YOU DID IT ON THE FIRST TIME!?!";
+                cout << "YOU DID IT ON THE FIRST TRY!?!";
             }
             break;
         }
-        if (wrong_choices == 7)
+        if (wrong_choices > 6)
         {
+            cout << endl << endl;
+            cout << "GAME OVER! YOU LOSE" << endl;
+            cout << "Your word was " << words[word];
             return 0;
         }
     }

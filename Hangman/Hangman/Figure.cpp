@@ -11,7 +11,7 @@ void gallow0()
     cout << "\t |\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow1()
 {
@@ -23,7 +23,7 @@ void gallow1()
     cout << "\t |\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow2()
 {
@@ -36,7 +36,7 @@ void gallow2()
     cout << "\t |\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow3()
 {
@@ -49,7 +49,7 @@ void gallow3()
     cout << "\t |\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow4()
 {
@@ -61,7 +61,7 @@ void gallow4()
     cout << "\t |\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow5()
 {
@@ -86,7 +86,7 @@ void gallow6()
     cout << "\t | \t  / \n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 void gallow7()
 {
@@ -99,7 +99,7 @@ void gallow7()
     cout << "\t | \t  / \\\n";
     cout << "\t |\n";
     cout << "\t |\n";
-    cout << "\t _______\n";
+    cout << "\t _______\n\n";
 }
 int hangmanFigure(int& wrong_choices)
 {
@@ -134,11 +134,6 @@ int hangmanFigure(int& wrong_choices)
     else if (wrong_choices == 7)
     {
         gallow7();
-    }
-    if (wrong_choices > 7)
-    {
-        cout << "Game Over";
-        return 0;
     }
     return 0;
 }

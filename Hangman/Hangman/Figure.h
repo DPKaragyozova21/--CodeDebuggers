@@ -7,4 +7,4 @@ void gallow4();
 void gallow5();
 void gallow6();
 void gallow7();
-int hangmanFigure(int& wrong_choices);
+int hangmanFigure(int&);

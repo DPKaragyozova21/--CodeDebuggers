@@ -1,2 +1,2 @@
 #pragma once
-int GuessTheLetter(const string words[], char blank[], int& word);
+int GuessTheLetter(const string[], char[], int&);

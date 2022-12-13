@@ -1,2 +1,2 @@
 #pragma once
-void Read(const int MaxLines, ifstream& inputFile, string words[]);
+void Read(const int, ifstream&, string[]);

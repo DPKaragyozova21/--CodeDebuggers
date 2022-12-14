@@ -74,7 +74,7 @@ int main()
     {
         HowToPlay();
     }
-    string Documentation = "start https://codingburgas-my.sharepoint.com/:w:/g/personal/bkkyovtorov21_codingburgas_bg/ETuNwrwQV19OppTPU1aLQ40BX_-EH7mvGuLsx4JqxA9LlQ?e=y1kHl3";
+    string Documentation = "start https://codingburgas-my.sharepoint.com/:w:/g/personal/bkkyovtorov21_codingburgas_bg/EVWpd5vfKH1Pl9xBaNR9mTYBtx2Y-lmMyxQ0HhC1gJ2hPw?e=emdRAs";
     string Presentation = "start https://codingburgas-my.sharepoint.com/:p:/g/personal/bkkyovtorov21_codingburgas_bg/EbpgvY3OoLdJpT8mxQnwKtUBdSHDxAXCyGK6IWeCrDlyXw?e=KOW2b6";
     if (option == 3)
     {
